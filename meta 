@@ -1,0 +1,44 @@
+Тег Description
+
+для докстепной версси
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Webovio</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<meta name="description" content="Описание страницы"/>
+/для описания сайта в поисковике
+о
+
+<!-- kодировка страницы -->
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+— появлением HTML5 можно использовать 
+<meta charset="UTF-8">
+
+
+
+
+
+Десктопная версия 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+а также убирать media.css. для декстопной версии
+
+
+
+<!-- oтключает принудительную ссылку у номера телефона на iOS -->
+<meta name="format-detection" content="telephone=no">
+
+
+  <meta name="viewport" content="width=device-width, user-scalable=yes">  для мобильной верстки; разрешает зумирование пальцами и заадет размер 
+
+
+

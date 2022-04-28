@@ -1,0 +1,62 @@
+ .fantasies {
+    display: flex;
+    position: relative;
+
+  }
+  
+    .fantasies::after {
+      content: "";
+      background: url(interior.jpg);
+      opacity: 0.5;                       или filter: brightness(70%); затемнение
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;  
+      background-repeat: no-repeat; 
+    }
+
+
+
+border: 1px solid black;                     убрать padding
+padding: 0;
+list-style-position: inside;
+list-style-type: none;
+}
+
+
+.our img{
+    vertical-align: middle;                  чтобы выровнить в центре все
+
+    } 
+
+
+<form action="#">
+                <input class="Request" type="submit" name="abort" value="Request a call" /> 
+              </form>                                                                                     кнопка для начала страницы
+
+<input type = "image" src = "src.png">  
+
+q::before {
+  content: "«";
+  color: blue;
+}
+
+q::after {
+  content: "»";       рпвррпващщнннввуоо
+  color: red;
+}
+
+
+написать линию 
+:after
+content: ''
+possition: absolute
+heights 1px
+weidth 5px
+
+
+в блок прописываем стилистику в элемент позиционирование в модификатор - цвет например
+
+
