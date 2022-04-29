@@ -1,0 +1,35 @@
+Форма 
+
+<div class="contact"
+
+ <div class="contact__item">
+
+    <div class="contact__btm"><p class="name">Name</p>
+    <p>
+        <input class="pole" type="text" name="your-name" placeholder="What is your name:" value=""> 
+    </p>
+   </div>
+
+    <div class="contact__btm"><p class="name">Number </p>
+       <p>
+       <input  class="pole" type="text" name="your-name" placeholder="Your phone number:" value=""> 
+    </p>
+
+  </div>
+
+<div class="egreement">
+    <input  type="checkbox" name="user_agree" id="user_agreement12" class="egreement__input" 
+        value="1">
+        <label for="user_agreement12">
+            I agree to the processing of personal data</label>
+</div>
+
+
+<div class="contact__submit">
+    <form action="#">  
+        <input class="contact__submit-submit" type="submit" value="submit">
+    </form>  
+
+</div>
+</div>
+</div>
